@@ -116,7 +116,7 @@ main {
 }
 
 .section1:hover{
-    transition: 500ms;
+    transition: 1s;
     width: 90vw;
 }
 
@@ -151,7 +151,8 @@ main {
 
 
 .section2:hover{
-    transition: 500ms;
+    transition: 1s;
+    transition-delay: 1s;
     width: 90vw;
 }
 
