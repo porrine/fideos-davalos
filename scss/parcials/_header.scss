@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #ffffff;
+    background-image: url(../images/wallpaperflare-cropped.jpg);
+    background-size: cover;
+    height: 70vh;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow:0 0px 10px #000000, 0 0 20px #000000 inset;
+    
+    .navbar {
+        background-color: transparent !important;
+        align-self: flex-end;
+
+        a{
+            color: #2c1a1d;
+            text-shadow: 1px 1px #FAFF81;
+        }
+    }
+
+}
+
+
+.logo {
+    display: flex;
+    margin: 1rem;
+    width: 200px;
+    align-self: center;
+    justify-self: center;
+}

@@ -1,0 +1,32 @@
+footer{
+    background-color: #201315;
+    font-family: 'Source Code Pro', monospace;
+    color: #ebfcfb;
+    display: flex;
+    flex-direction: column;
+    box-shadow:0 0px 3px #2c1a1d, 0 0 3px #2c1a1d inset;
+
+    h2{
+    display: flex;
+    justify-content: center;
+    }
+
+    ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+    li{
+    margin: 1rem;
+
+    a{
+    color: #ebfcfb;
+
+    i{
+    font-size: 3em;
+    opacity: 0.5;
+    }
+    }
+    }
+    }
+}

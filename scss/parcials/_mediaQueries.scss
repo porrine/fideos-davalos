@@ -1,0 +1,207 @@
+@media (max-width: 768px) {
+    /* ========= HEADER =========== */
+    
+     *{
+    font-size: 15px;;
+    }
+header {
+        height: 50vh;
+    } 
+
+    .navbar a{
+        font-size: 2.2em;    
+    }
+
+
+
+    .ojalaFuncione {
+        align-self: flex-end;
+    }
+
+    .logo {
+        width: 50vw;
+        align-self: center;
+    }
+
+
+/* 
+============DESCUENTO=========== */
+    main form{
+        width: 80vw;
+    }
+
+
+    /* ==============GALERIA================= */
+    .gridContainer{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        grid-template-areas:
+        "gridItem1 gridItem1"
+        "gridItem1 gridItem1"
+        "gridItem2 gridItem3"
+        "gridItem2 gridItem3"
+        "gridItem4 gridItem4"
+        "gridItem4 gridItem4"
+        "gridItem5 gridItem6"
+        "gridItem5 gridItem6"
+        "gridItem7 gridItem7"
+        "gridItem7 gridItem7"
+        "gridItem8 gridItem9"
+        "gridItem8 gridItem10";
+    }
+
+
+
+    /* ===============INICIO MAIN=============== */
+
+    .section1 {
+        width: 80vw;
+        margin: 3rem;
+    }
+    
+    .section2 {
+        width: 80vw;
+        margin: 3rem;
+    }
+
+
+    /* =================TIENDA================= */
+
+    .tienda{
+        margin: 1rem;
+    }
+
+    .carrito__container{
+        width: 500px;
+        height: 30vh;
+        background-color: #ff3c38;
+        border-radius: 3px;
+    }
+
+
+
+    /* ================SUCURSALES=============== */
+
+    .containerMapa__1{
+        width: 80vw;
+        height: fit-content;
+        padding: 1rem;
+        margin: 1rem;
+        border-radius: 7px;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .containerMapa__1 div{
+        width: auto;
+    }
+
+    .containerMapa__2{
+        width: 80vw;
+        height: fit-content;
+        padding: 1rem;
+        margin: 1rem;
+        border-radius: 7px;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .containerMapa__2 div{
+        width: auto;
+    }
+
+    .map{
+        width: 70vw;
+    }
+
+}
+
+
+
+
+
+
+@media (max-width: 480px) {
+
+    *{
+        font-size: 10px;
+    }
+
+/*     
+    ==============HEADER=========== */
+    header {
+        height:30vh;
+    }
+
+    .navbar a{
+        font-size: 2em;
+    }
+
+
+/* ==================GALERIA=========== */
+    .gridContainer{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+        grid-template-areas:
+        "gridItem1 gridItem1"
+        "gridItem2 gridItem2"
+        "gridItem3 gridItem3"
+        "gridItem4 gridItem4"
+        "gridItem5 gridItem5"
+        "gridItem6 gridItem6"
+        "gridItem7 gridItem7"
+        "gridItem8 gridItem8"
+        "gridItem9 gridItem9"
+        "gridItem10 gridItem10";
+    }
+
+
+    /* ==================DESCUENTO================= */
+    main form{
+        padding: 1rem;
+        width: 95vw;
+    }
+
+
+    /* =================INICIO MAIN=============== */
+
+    .section1 {
+        width: 87vw;
+        height: 60vh;
+        font-size: 10px;
+    }
+
+    .section2 {
+        width: 87vw;
+        height: 60vh;
+        font-size: 10px;
+    }
+
+/* ================TIENDA============== */
+    .tienda{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .carrito__container{
+        width: 80vw;
+    }
+
+    .tienda__container article{
+        width: 250px;
+    }
+
+    /* ================SUCURSALES=============== */
+
+    .containerMapa__1{
+        width: 90vw;
+    }
+
+    .map{
+        width: 80vw;
+    }
+
+    .containerMapa__2{
+        width: 90vw;
+    }
+}

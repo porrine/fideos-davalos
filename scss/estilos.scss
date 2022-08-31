@@ -1,0 +1,19 @@
+@import './base/estilosgenerales';
+
+
+@import './parcials/header';
+@import './parcials/main';
+@import './parcials/footer';
+
+// pages
+
+@import './parcials/index';
+@import './parcials/galeria';
+@import './parcials/descuento';
+@import './parcials/sucursales';
+@import './parcials/tienda';
+
+
+// mediaQueries
+
+@import './parcials/mediaQueries';

@@ -1,0 +1,26 @@
+.descuento{
+    display: flex;
+    justify-content: center;
+    margin: 6rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+    form{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ebfcfb;
+    width: 50vw;
+    gap: 1rem;
+    border-radius: 5px;
+    box-shadow:0 0px 3px #2c1a1d, 0 0 3px #2c1a1d inset;
+    }
+
+    .botonEnviar{
+    width: 10vw;
+    height: 3rem;
+    background-color: #FAFF81
+}
+}
+
+
