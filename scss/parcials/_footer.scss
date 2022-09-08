@@ -1,10 +1,10 @@
 footer{
-    background-color: #201315;
-    font-family: 'Source Code Pro', monospace;
-    color: #ebfcfb;
+    background-color: $oscurito;
+    font-family: $fontGeneral;
+    color: $clarito;
     display: flex;
     flex-direction: column;
-    box-shadow:0 0px 3px #2c1a1d, 0 0 3px #2c1a1d inset;
+    box-shadow: $sombra;
 
     h2{
     display: flex;
@@ -20,7 +20,7 @@ footer{
     margin: 1rem;
 
     a{
-    color: #ebfcfb;
+    color: $clarito;
 
     i{
     font-size: 3em;

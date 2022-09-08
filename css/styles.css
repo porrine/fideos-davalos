@@ -7,25 +7,34 @@ body {
   background: #ff3c38;
   background-image: linear-gradient(to right bottom, #2c1a1d, #512129, #782732, #a02c38, #c9313b, #dc3d38, #ee4a33, #ff592c, #ff6b23, #ff7d18, #ff650c, #ff9d00); }
 
+.section1, .section2 {
+  display: flex;
+  justify-content: end;
+  border-radius: 7px;
+  width: 70vw;
+  height: 100vh;
+  margin: 3rem;
+  box-shadow: 0 0px 3px #2c1a1d, 0 0 3px #2c1a1d inset; }
+
 header {
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
-  font-family: 'Fredoka One', cursive;
+  font-family: "Fredoka One", cursive;
   font-size: 2.5em;
   font-weight: 600;
-  color: #ffffff;
+  color: #ebfcfb;
   background-image: url(../images/wallpaperflare-cropped.jpg);
   background-size: cover;
   height: 70vh;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  box-shadow: 0 0px 10px #000000, 0 0 20px #000000 inset; }
+  box-shadow: 0 0px 3px #2c1a1d, 0 0 3px #2c1a1d inset; }
   header .navbar {
     background-color: transparent !important;
     align-self: flex-end; }
     header .navbar a {
-      color: #2c1a1d;
+      color: #201315;
       text-shadow: 1px 1px #FAFF81; }
 
 .logo {
@@ -36,15 +45,15 @@ header {
   justify-self: center; }
 
 main {
-  font-family: 'Source Code Pro', monospace;
-  color: #2c1a1d; }
+  font-family: "Source Code Pro", monospace;
+  color: #201315; }
 
 .frameTitle {
   display: flex;
   justify-content: center; }
 
 .title {
-  font-family: 'Fredoka One', cursive;
+  font-family: "Fredoka One", cursive;
   align-items: center;
   margin: 5rem;
   color: #FAFF81;
@@ -52,7 +61,7 @@ main {
 
 footer {
   background-color: #201315;
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   color: #ebfcfb;
   display: flex;
   flex-direction: column;
@@ -77,16 +86,9 @@ footer {
   flex-direction: column; }
 
 .section1 {
-  display: flex;
-  justify-content: end;
-  background-image: url(../images/fideos1.jpg);
+  background-image: url(https://res.cloudinary.com/fideos/image/upload/v1662511406/fideos/fideos1_boljbp.jpg);
   background-size: cover;
-  border-radius: 7px;
-  width: 70vw;
-  height: 100vh;
-  margin: 3rem;
-  margin-left: 0;
-  box-shadow: 0 0px 3px #2c1a1d, 0 0 3px #2c1a1d inset; }
+  margin-left: 0; }
   .section1 h2 {
     display: flex;
     justify-content: center;
@@ -102,16 +104,9 @@ footer {
   justify-content: end; }
 
 .section2 {
-  display: flex;
-  justify-content: end;
-  background-image: url(../images/fideos2.jpg);
+  background-image: url(https://res.cloudinary.com/fideos/image/upload/v1662511407/fideos/fideos2_qjrcia.jpg);
   background-size: cover;
-  border-radius: 7px;
-  width: 70vw;
-  height: 100vh;
-  margin: 3rem;
-  margin-right: 0;
-  box-shadow: 0 0px 3px #2c1a1d, 0 0 3px #2c1a1d inset; }
+  margin-right: 0; }
   .section2 h2 {
     display: flex;
     justify-content: center;
@@ -120,7 +115,6 @@ footer {
     padding: 2rem; }
   .section2:hover {
     transition: 1s;
-    transition-delay: 1s;
     width: 90vw; }
 
 .contenidoIndex__text {
@@ -275,7 +269,7 @@ footer {
       background-color: #FAFF81;
       border-radius: 3px; }
   .tienda .btn {
-    background-color: #2c1a1d;
+    background-color: #201315;
     width: max-content; }
 
 @media (max-width: 768px) {
@@ -296,7 +290,7 @@ footer {
   main form {
     width: 80vw; }
   /* ==============GALERIA================= */
-  .gridContainer {
+  .grid .gridContainer {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(12, 1fr);
     grid-template-areas: "gridItem1 gridItem1" "gridItem1 gridItem1" "gridItem2 gridItem3" "gridItem2 gridItem3" "gridItem4 gridItem4" "gridItem4 gridItem4" "gridItem5 gridItem6" "gridItem5 gridItem6" "gridItem7 gridItem7" "gridItem7 gridItem7" "gridItem8 gridItem9" "gridItem8 gridItem10"; }
@@ -313,7 +307,6 @@ footer {
   .carrito__container {
     width: 500px;
     height: 30vh;
-    background-color: #ff3c38;
     border-radius: 3px; }
   /* ================SUCURSALES=============== */
   .containerMapa__1 {
@@ -349,7 +342,7 @@ footer {
   .navbar a {
     font-size: 2em; }
   /* ==================GALERIA=========== */
-  .gridContainer {
+  .grid .gridContainer {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(10, 1fr);
     grid-template-areas: "gridItem1 gridItem1" "gridItem2 gridItem2" "gridItem3 gridItem3" "gridItem4 gridItem4" "gridItem5 gridItem5" "gridItem6 gridItem6" "gridItem7 gridItem7" "gridItem8 gridItem8" "gridItem9 gridItem9" "gridItem10 gridItem10"; }

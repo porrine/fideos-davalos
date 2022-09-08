@@ -5,7 +5,7 @@
     .containerMapa__1{
         display: flex;
         justify-content: space-between;
-        background-color: #FAFF81;
+        background-color: $amarillito;
         opacity: 0.9;
         width: 70vw;
         height: fit-content;
@@ -15,7 +15,7 @@
         border-bottom-right-radius: 7px;
         border-top-right-radius: 7px;
         align-items: center;
-        box-shadow:0 0px 3px #2c1a1d, 0 0 3px #2c1a1d inset;
+        box-shadow: $sombra;
 
         div{
             display: flex;
@@ -33,7 +33,7 @@
         .containerMapa__2{
             display: flex;
             justify-content: space-between;
-            background-color: #FAFF81;
+            background-color: $amarillito;
             opacity: 0.9;
             width: 70vw;
             height: fit-content;
@@ -43,7 +43,7 @@
             border-bottom-left-radius: 7px;
             border-top-left-radius: 7px;
             align-items: center;
-            box-shadow:0 0px 3px #2c1a1d, 0 0 3px #2c1a1d inset;
+            box-shadow: $sombra;
 
             div{
                 display: flex;

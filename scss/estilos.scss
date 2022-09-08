@@ -1,4 +1,9 @@
+@import './variables/colors';
 @import './base/estilosgenerales';
+@import './variables/fonts';
+@import './variables/_extend';
+
+
 
 
 @import './parcials/header';
@@ -17,3 +22,5 @@
 // mediaQueries
 
 @import './parcials/mediaQueries';
+
+

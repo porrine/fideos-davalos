@@ -1,6 +1,6 @@
 main {
-    font-family: 'Source Code Pro', monospace;
-    color: #2c1a1d;
+    font-family: $fontGeneral;
+    color: $oscurito;
 }
 
 .frameTitle{
@@ -10,9 +10,9 @@ main {
 }
 
 .title{
-    font-family: 'Fredoka One', cursive;
+    font-family: $fontTitulos;
     align-items: center;
     margin: 5rem;
-    color: #FAFF81;
-    text-shadow: 2px 2px #201315;
+    color: $amarillito;
+    text-shadow: 2px 2px $oscurito;
 }
