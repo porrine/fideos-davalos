@@ -3,16 +3,24 @@
     margin: 3rem;
 
     .carrito__container{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
         width: 500PX;
         height: 50vh;
         background-color: $rojito;
         border-radius: 3px;
         box-shadow: $sombra;
+
+        .btn{
+            color: $rojito;
+        }
     }
 
     .tienda__container{
         display: flex;
-        background-color: $clarito;
+        background-color: $oscurito;
         width: 80vw;
         justify-content: center;
         flex-direction: row;

@@ -5,7 +5,7 @@
 
 .section1 {
     @extend %contenedor1;
-    background-image: url(https://res.cloudinary.com/fideos/image/upload/v1662511406/fideos/fideos1_boljbp.jpg);
+    background-image: url(https://res.cloudinary.com/fideos/image/upload/v1662943465/fideos/DALL_E_2022-09-11_21.32.07_-_fiesta_de_fideos_gente_festejando_comiendo_fideos_zohlxm.png);
     background-size: cover;
     margin-left: 0;
 
@@ -35,7 +35,7 @@
 
 .section2 {
     @extend %contenedor1;
-    background-image: url(https://res.cloudinary.com/fideos/image/upload/v1662511407/fideos/fideos2_qjrcia.jpg);
+    background-image: url(https://res.cloudinary.com/fideos/image/upload/v1662943474/fideos/DALL_E_2022-09-11_21.23.08_-_elegant_patron_for_the_wall_of_a_pasta_restaurant_wallpaper_exhomi.png);
     background-size: cover;
     margin-right: 0;
 
@@ -62,4 +62,20 @@
     opacity: 0.7;
     width: auto;
     height: fit-content;
+
+    &:hover{
+        transition: 0.5s;
+        opacity: 1;
+    }
+}
+
+.indexContainer{
+    outline: none;
+    text-decoration: none;
+    h2{
+        color: $oscurito;
+    }
+    p{
+        color: $oscurito
+    }
 }
