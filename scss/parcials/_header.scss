@@ -20,11 +20,6 @@ header {
         a{
             color: $oscurito;
             text-shadow: 1px 1px $amarillito;
-
-            &:hover{
-                transition: 0.25s;
-                font-size: 1.05em;
-            }
         }
     }
 }

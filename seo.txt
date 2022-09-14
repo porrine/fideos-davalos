@@ -1,0 +1,3 @@
+Verifiqué que cada html cuente con un titulo único, H1 propio.
+Agregue meta-etiquetas con KEYWORDS personalizadas para la tematica de cada pagina así como un DESCRIPTION haciendo un resumen del contenido que se encuentra en dicha pagina.
+También aguegue etiqueta <STRONG> a las palabras importantes en cada HTML.
